@@ -38,7 +38,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                     println!("No {} in the word :(", guessed_char[0]);
                     lives -= 1;
                     if lives == 0 {
-                        println!(">> Oh crap! You lost! :(");
+                        println!("😵😵Oh crap! You Lost!😵😵");
                         break;
                     }
                     println!("Word: {}  ( {} ❤ )", placeholder, lives);
