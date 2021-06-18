@@ -41,7 +41,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                         println!(">> Oh crap! You lost! :(");
                         break;
                     }
-                    println!("Lives remaining: {}", lives);
+                    println!("Word: {}  ( {} ❤ )", placeholder, lives);
                 }
             } else {
                 println!("You should guess a character");
